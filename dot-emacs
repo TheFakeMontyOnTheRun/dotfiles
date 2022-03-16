@@ -28,4 +28,5 @@
 	(tab-mark 9 [9655 9] [92 9])
 	))
 
-(global-set-key "\t" (lambda () (interactive) (insert-char 32 2)))
+; uncomment in places that won't tolerate your choice to use tabs
+;(global-set-key "\t" (lambda () (interactive) (insert-char 32 2)))
